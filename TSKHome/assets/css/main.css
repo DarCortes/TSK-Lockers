@@ -1,3 +1,45 @@
+.body {
+  background-color: #A7DA18;
+}
 
+.nav {
+  font-family: "Lucida Grande", Tahoma, Sans-Serif;
+  color: white;
+  padding: 20px;
+  background-color: #1A4A5B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item {
+  font-family: "Lucida Grande", Tahoma, Sans-Serif;
+  background: #1A4A5B;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-container {
+  font-family: "Lucida Grande", Tahoma, Sans-Serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.footer {
+  height: 25px;
+  background-color: #C4C4C4;
+  margin: 0px;
+}
 
 /*# sourceMappingURL=main.css.map */
