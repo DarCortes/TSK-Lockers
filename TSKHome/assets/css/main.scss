@@ -1,3 +1,66 @@
 @import "variables";
 @import "containers";
 @import "mediaqueries";
+nav {
+    padding: 20px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+        color: $color;
+        display: inline-block;
+    }
+}
+
+.img-citybg {
+    background-image: url("../IMG/ciudadvista1.jpeg")
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background: #414141;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: $color;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 27px;
+}
+
+body {
+    font-family: "Lucida Grande", Tahoma, Sans-Serif;
+    margin: 0;
+    color: $color;
+    height: 80px;
+    text-align: left;
+    background-color: #AF0404;
+}
+
+footer {
+    height: 25px;
+    background-color: #C4C4C4;
+    margin: 0px;
+}
+
+nav div a {
+    color: $color;
+}
+
+@media all and (max-width: 500px) {
+    .navigation {
+        flex-direction: column;
+    }
+}

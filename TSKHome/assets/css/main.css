@@ -1,32 +1,32 @@
-.body {
-  background-color: #A7DA18;
+body {
+  background-color: #252525;
 }
 
-.nav {
+nav {
   font-family: "Lucida Grande", Tahoma, Sans-Serif;
-  color: white;
+  color: #F1F0CF;
   padding: 20px;
-  background-color: #1A4A5B;
+  background-color: #AF0404;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.flex-item {
+flex-item {
   font-family: "Lucida Grande", Tahoma, Sans-Serif;
-  background: #1A4A5B;
+  background: #AF0404;
   padding: 5px;
   width: 200px;
   height: 150px;
   margin-top: 10px;
   line-height: 150px;
-  color: white;
+  color: #F1F0CF;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
 }
 
-.flex-container {
+flex-container {
   font-family: "Lucida Grande", Tahoma, Sans-Serif;
   padding: 0;
   margin: 0;
@@ -36,10 +36,74 @@
   justify-content: space-around;
 }
 
-.footer {
+footer {
   height: 25px;
   background-color: #C4C4C4;
   margin: 0px;
+}
+
+nav {
+  padding: 20px;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  color: #F1F0CF;
+  display: inline-block;
+}
+
+.img-citybg {
+  background-image: url("../IMG/ciudadvista1.jpeg");
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #414141;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: #F1F0CF;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 27px;
+}
+
+body {
+  font-family: "Lucida Grande", Tahoma, Sans-Serif;
+  margin: 0;
+  color: #F1F0CF;
+  height: 80px;
+  text-align: left;
+  background-color: #AF0404;
+}
+
+footer {
+  height: 25px;
+  background-color: #C4C4C4;
+  margin: 0px;
+}
+
+nav div a {
+  color: #F1F0CF;
+}
+
+@media all and (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

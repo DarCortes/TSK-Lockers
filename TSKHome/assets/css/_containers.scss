@@ -1,8 +1,8 @@
-.body {
+body {
     background-color: $primary-color;
 }
 
-.nav {
+nav {
     font-family: $font-stack;
     color: $color;
     padding: 20px;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.flex-item {
+flex-item {
     font-family: $font-stack;
     background: $secondary-color;
     padding: 5px;
@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.flex-container {
+flex-container {
     font-family: $font-stack;
     padding: 0;
     margin: 0;
@@ -36,7 +36,7 @@
     justify-content: space-around;
 }
 
-.footer {
+footer {
     height: 25px;
     background-color: #C4C4C4;
     margin: 0px;
